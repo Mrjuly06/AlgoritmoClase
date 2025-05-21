@@ -3,7 +3,7 @@ def precedencia(op):
         return 0
     elif op in '+-':
         return 1
-    elif op in '*/':gu
+    elif op in '*/':
         return 2
     else:
         return -1
