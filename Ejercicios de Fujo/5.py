@@ -40,4 +40,4 @@ while True:
     if area is not None:
         print(f"El área calculada es: {area:.2f}\n")
     else:
-        print("Opción no válida. Intente de nuevo.\n")
+        print("Opción no válida. Intente de nuevo.\n") 
