@@ -3,7 +3,7 @@
 # Clase que representa un elemento con prioridad
 class Elemento:
     def __init__(self, nombre, prioridad):
-        self.nombre = nombre              # Nombre del elemento
+        self.nombre = nombre              # Nombre del elementon MC con atributos 
         self.prioridad = prioridad        # Prioridad (número entero, menor = más prioritario)
 
 # Clase que implementa la cola de prioridad

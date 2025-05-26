@@ -1,7 +1,7 @@
 # main.py
 
 # Importamos la función desde funciones2.py
-from funciones2 import parentesis_balanceados
+from funciones import parentesis_balanceados
 
 # Solicitamos al usuario una cadena de texto
 cadena = input("Ingrese una cadena con paréntesis (), [], {}: ")

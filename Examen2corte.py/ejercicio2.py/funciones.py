@@ -3,7 +3,7 @@
 # Clase para implementar una pila básica
 class Pila:
     def __init__(self):
-        # La pila se almacena en una lista interna
+        # La pila se almacena en una lista interna Costrtuctor
         self.items = []
 
     def esta_vacia(self):
@@ -24,7 +24,7 @@ class Pila:
 
 # Función para verificar si los paréntesis están balanceados en una cadena
 def parentesis_balanceados(cadena):
-    pila = Pila()  # Creamos una pila vacía
+    pila = Pila()  # Creamos una instancia de la clase Pil
 
     # Diccionario que relaciona cada paréntesis de cierre con su apertura correspondiente
     pares = {')': '(', ']': '[', '}': '{'}

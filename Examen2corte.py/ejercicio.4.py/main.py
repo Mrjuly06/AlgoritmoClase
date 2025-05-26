@@ -1,7 +1,7 @@
 # main.py
 
 # Importamos la clase ColaPrioridad desde funciones4.py
-from funciones4 import ColaPrioridad
+from funciones import ColaPrioridad
 
 # Creamos una instancia de la cola de prioridad
 cola = ColaPrioridad()
