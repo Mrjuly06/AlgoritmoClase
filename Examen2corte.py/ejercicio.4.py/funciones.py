@@ -21,7 +21,7 @@ class ColaPrioridad:
         if not self.cola:
             return None  # Si la cola está vacía, no hay nada que desencolar
 
-        # Buscar el elemento con la mayor prioridad (menor número)
+        # Buscar el elemento con la mayor prioridad (menor número) Inicializa la variable indice_prioritario en 0 para comenzar comparaciones desde el primer elemento.
         indice_prioritario = 0
         for i in range(1, len(self.cola)):
             if self.cola[i].prioridad < self.cola[indice_prioritario].prioridad:
